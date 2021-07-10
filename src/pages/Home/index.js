@@ -34,7 +34,7 @@ const Home = ()=>{
         <>
             <Banner/>
             <Menu/>
-            <input type="text" placeholder="Digite Aqui" onChange={e=>{setBusca(e.target.value)}}/>
+            <input type="text" placeholder="Busque aqui" onChange={e=>{setBusca(e.target.value)}}/>
             {filtroNome.map(empresa=>(
                 <div key={empresa.id} className="card-maior">
                     <div className="card">
