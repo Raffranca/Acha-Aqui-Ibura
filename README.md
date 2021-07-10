@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# `Oi, Mainha! Último Projeto dessa Jornada Incrível com a Reprograma!`❤️ 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O projeto "Acha Aqui Ibura" foi criado visando fomentar a economia local do bairro do Ibura, periferia do Recife-PE.
+Diante da dificuldade dos comerciantes divulgarem seus produtos e serviços, e dos clientes terem acessos quais atividades economicas existentes no bairro. O site visa solucionar este problema através de um mecanismo de busca.
 
-## Available Scripts
+O site de busca consome um API desenvolvida apartir de dados colhidos das redes sociais dos empreendimentos.
 
-In the project directory, you can run:
+-----------------------------------------------
+No projeto foi utilizado a estrutura SPA (Single page application), um conceito de gerar experiência para os usuários, atualizando partes do código em vez da página inteira.
 
-### `npm start`
+## `Tecnologias usadas:`
+| Ferramenta | Descrição |
+| --- | --- |
+| `React` | Biblioteca javascript |
+| `Hooks` | useState e useEffect |
+| `Axios` | Biblioteca para consumir API|
+| `react-router-dom` | Biblioteca para criação de rotas no React|
+| `npm ` | Gerenciador de pacotes|
+| `Netlify` | Servidor para deploy|
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---------
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📁 Arquitetura 
 
-### `npm run build`
+```
+ 📁 final-projeto
+   |
+   |-  📁 src
+   |    |
+   |    |- 📁 assets
+   |         |- 📄 5.png
+   |
+   |    |- 📁 components
+   |         |- 📁 Banner 
+   |                |- 📄 index.js
+   |                |- 📄 styles.css
+   |         |- 📁 Menu 
+   |                |- 📄 index.js
+   |                |- 📄 styles.css
+   |         |- 📁 Footer 
+   |                |- 📄 index.js
+   |                |- 📄 styles.css 
+   |
+   |    |- 📁 pages
+   |         |- 📁 Home 
+   |                |- 📄 index.js
+   |                |- 📄 styles.css
+   |         |- 📁 Cadastro 
+   |                |- 📄 index.js
+   |                |- 📄 styles.css
+   |
+   |    |- 📁 routes
+   |         |- 📄 Routes.js 
+   |    
+   |
+   |
+   |    |- 📄 App.js
+   |    |- 📄 index.js
+   |    |- 📄 global.css
+   |
+   |
+   
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---------
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Gostaria de contribuir/sugerir melhorias para o projeto
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Faça um fork do projeto
+- Crie uma branch com seu nome
+- No terminal de o comando "npm install"
+- Faça suas contribuições
+- Commit quantos precisar
+- Por ultimo abra um pull request 

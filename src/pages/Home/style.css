@@ -1,0 +1,32 @@
+.card{
+    width: 22%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: solid 2px red;
+    margin: 10px;
+    align-content: space-around;
+}
+
+.img{
+    width: 100%;
+    
+}
+
+.descricao p{
+    font-weight: 800;
+    font-size: 1.2rem;
+    color:#912203;
+    align-items: center;
+}
+
+.btn::after {
+    content: "↑";
+    font-size: 3rem;
+    font-weight: 800;
+    color: #912203;
+    transition: margin-top 250ms;
+}
+.btn:hover::after {
+    margin-top:-8px;
+}
