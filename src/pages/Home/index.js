@@ -34,9 +34,9 @@ const Home = ()=>{
         <>
             <Banner/>
             <Menu/>
-            <input type="text" placeholder="Nome do personagem" onChange={e=>{setBusca(e.target.value)}}/>
+            <input type="text" placeholder="Digite Aqui" onChange={e=>{setBusca(e.target.value)}}/>
             {filtroNome.map(empresa=>(
-                <div key={empresa.id}>
+                <div key={empresa.id} className="card-maior">
                     <div className="card">
                         <img className="img" src={empresa.img} alt={empresa.nome}/>
                         <div className="descricao">
